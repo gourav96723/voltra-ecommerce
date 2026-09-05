@@ -23,7 +23,7 @@ jobs:
         run: npm ci
         working-directory: server
       - name: Verify JavaScript syntax
-        run: cd .. && npm run verify
+        run: npm run verify
 
   client:
     name: Frontend lint and build
