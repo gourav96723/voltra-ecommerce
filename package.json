@@ -1,0 +1,18 @@
+{
+  "name": "ecommerce-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Voltra \u2014 full-stack e-commerce platform (React + Vite + Tailwind, Node + Express + MongoDB, Razorpay, Cloudinary).",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "build:client": "npm run build --prefix client",
+    "start:server": "npm start --prefix server",
+    "verify": "node scripts/verify-server.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
